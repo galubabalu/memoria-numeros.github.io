@@ -40,3 +40,15 @@ h1 {
     background-color: #00ff37;
     cursor: default;
 }
+
+@media (max-width: 600px) {
+    #game-board {
+        display: grid;
+        grid-template-columns: repeat(5, 60px);
+        grid-gap: 10px;
+    }
+    .card {
+        width: 60px;
+        height: 60px;
+    }
+  }
